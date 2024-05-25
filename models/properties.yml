@@ -1,0 +1,24 @@
+sources:
+  - name: "neeraj org"
+    database: DB_ECOMM
+    schema: SC_ECOMM
+    tables:
+      - name: USERS
+
+
+models:
+  - name: "user2"
+    config:
+      materialized: "table"
+  - name: "user1"
+    config:
+      materialized: "table"
+  - name: "user3"
+    config:
+      materialized: "table"
+  - name: "neeraj"
+    config:
+      materialized: "view"
+  - name: "neeraj2"
+    config:
+      materialized: "view"
